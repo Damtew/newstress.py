@@ -1,17 +1,6 @@
 import numpy as np
 import streamlit as st
 import pandas as pd
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
-from sklearn.decomposition import PCA
-from sklearn.metrics import accuracy_score
 
 # Load the data
 def load_data():
